@@ -57,18 +57,22 @@ p {
     display: flex;
 }
 
+.circle-container {
+    display:flex;
+    position: absolute;
+}
+
 .pink-circle {
     padding: 5px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
-    position: absolute;
     margin-top: 10px;
     margin-bottom: -163px;
     margin-left: 1000px;
     background-color: rgba(247, 136, 167, 0.6);
     /* z-index: 1; */
-    /* position: relative; */
+    position: relative;
 }
 
 .violet-circle {
@@ -77,7 +81,7 @@ p {
     height: 120px;
     border-radius: 50%;
     margin-top: 46px;
-    margin-left: 380px;
+    margin-left: -40px;
     background-color: rgba(207, 130, 213, 0.6);
     z-index: 1;
     position: relative;
@@ -98,7 +102,7 @@ p {
 div.myButton {
     display:flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 280px;
 }
 
 .main-button {
